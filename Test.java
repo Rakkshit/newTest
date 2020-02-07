@@ -4,6 +4,7 @@ public class Test
    {
       System.out.println("Sup fam?");
       printer("Aaight");
+      System.out.print(divide(10,2));
    }
    
    public static void printer(String s)
@@ -14,5 +15,10 @@ public class Test
    public static void printerCeption(String s)
    {
       System.out.println(s);
+   }
+   
+   public static float divide(int a, int b)
+   {
+      return a/b;
    }
 }
