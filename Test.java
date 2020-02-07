@@ -8,6 +8,11 @@ public class Test
    
    public static void printer(String s)
    {
+      printerCeption(s);
+   }
+   
+   public static void printerCeption(String s)
+   {
       System.out.println(s);
    }
 }
